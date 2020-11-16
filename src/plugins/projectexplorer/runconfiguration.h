@@ -25,7 +25,6 @@
 
 #pragma once
 
-#include "applicationlauncher.h"
 #include "buildtargetinfo.h"
 #include "devicesupport/idevice.h"
 #include "projectconfiguration.h"
@@ -37,10 +36,12 @@
 #include <utils/macroexpander.h>
 #include <utils/port.h>
 
-#include <QWidget>
-
 #include <functional>
 #include <memory>
+
+QT_BEGIN_NAMESPACE
+class QWidget;
+QT_END_NAMESPACE
 
 namespace Utils { class OutputFormatter; }
 

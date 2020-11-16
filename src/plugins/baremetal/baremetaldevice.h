@@ -29,6 +29,8 @@
 #include <projectexplorer/devicesupport/idevice.h>
 #include <projectexplorer/devicesupport/idevicefactory.h>
 
+#include <QCoreApplication>
+
 namespace BareMetal {
 namespace Internal {
 

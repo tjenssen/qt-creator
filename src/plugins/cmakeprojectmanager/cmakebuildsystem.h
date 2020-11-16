@@ -32,6 +32,7 @@
 #include "utils/macroexpander.h"
 
 #include <projectexplorer/buildsystem.h>
+#include <projectexplorer/treescanner.h>
 
 #include <utils/fileutils.h>
 #include <utils/temporarydirectory.h>

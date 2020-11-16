@@ -29,6 +29,8 @@
 
 #include <qmldebug/qmldebugcommandlinearguments.h>
 
+#include <utils/qtcprocess.h>
+
 using namespace ProjectExplorer;
 using namespace Utils;
 

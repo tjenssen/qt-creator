@@ -29,6 +29,8 @@
 
 #include <coreplugin/dialogs/ioptionspage.h>
 
+#include <QProcess>
+
 namespace PerfProfiler {
 namespace Internal {
 

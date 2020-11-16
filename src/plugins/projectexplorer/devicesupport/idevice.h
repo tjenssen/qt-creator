@@ -28,10 +28,9 @@
 #include "../projectexplorer_export.h"
 
 #include <utils/id.h>
-#include <utils/hostosinfo.h>
+#include <utils/osspecificaspects.h>
 
 #include <QAbstractSocket>
-#include <QCoreApplication>
 #include <QList>
 #include <QObject>
 #include <QSharedPointer>

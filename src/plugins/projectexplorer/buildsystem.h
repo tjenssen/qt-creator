@@ -25,11 +25,10 @@
 
 #pragma once
 
-#include "projectexplorer_export.h"
-
 #include "buildtargetinfo.h"
-#include "project.h"
-#include "treescanner.h"
+#include "deploymentdata.h"
+#include "projectexplorer_export.h"
+#include "projectnodes.h"
 
 #include <QObject>
 
@@ -37,6 +36,9 @@ namespace ProjectExplorer {
 
 class BuildConfiguration;
 class Node;
+class Project;
+class Target;
+class Kit;
 
 // --------------------------------------------------------------------
 // BuildSystem:

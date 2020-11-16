@@ -28,13 +28,10 @@
 #include "applicationlauncher.h"
 #include "buildconfiguration.h"
 #include "devicesupport/idevice.h"
-#include "projectexplorerconstants.h"
 #include "runconfiguration.h"
 
 #include <utils/environment.h>
 #include <utils/processhandle.h>
-#include <utils/qtcassert.h>
-#include <utils/qtcprocess.h>
 #include <utils/icon.h>
 
 #include <QHash>

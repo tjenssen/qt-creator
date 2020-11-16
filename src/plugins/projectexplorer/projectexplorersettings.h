@@ -26,7 +26,6 @@
 #pragma once
 
 #include <coreplugin/coreconstants.h>
-#include <projectexplorer/projectexplorerconstants.h>
 
 #include <QUuid>
 

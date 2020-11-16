@@ -31,6 +31,7 @@
 #include <android/androidconstants.h>
 #include <coreplugin/fileiconprovider.h>
 #include <projectexplorer/target.h>
+#include <projectexplorer/project.h>
 
 #include <utils/qtcassert.h>
 

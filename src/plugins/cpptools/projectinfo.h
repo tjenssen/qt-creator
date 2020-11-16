@@ -33,7 +33,6 @@
 #include <projectexplorer/rawprojectpart.h>
 #include <projectexplorer/toolchain.h>
 
-#include <QHash>
 #include <QPointer>
 #include <QSet>
 #include <QVector>

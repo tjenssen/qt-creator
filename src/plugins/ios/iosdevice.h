@@ -35,6 +35,7 @@
 #include <QString>
 #include <QStringList>
 #include <QTimer>
+#include <QCoreApplication>
 
 namespace Ios {
 class IosConfigurations;

@@ -26,7 +26,7 @@
 #pragma once
 
 #include "projectexplorer_export.h"
-#include "runconfiguration.h"
+#include "runcontrol.h"
 
 #include <extensionsystem/iplugin.h>
 

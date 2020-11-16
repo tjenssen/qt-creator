@@ -25,14 +25,14 @@
 
 #pragma once
 
-#include "target.h"
-#include "taskhub.h"
-
-#include <projectexplorer/kit.h>
-
 #include <utils/fileutils.h>
 
+#include <QVariant>
+#include <QString>
+
 namespace ProjectExplorer {
+
+class Target;
 
 class Project : public QObject {
 public:
@@ -42,7 +42,7 @@ public:
 
     Utils::FilePath rootProjectDirectory() const { return rootProjectDirectoryPath; }
 
-    Target *activeTarget() const { return {}; }
+    Target *activeTarget() const;
 
     QVariant namedSettings(const QString &name) const { return settings[name]; }
     void setNamedSettings(const QString &name, const QVariant &value) { settings[name] = value; }

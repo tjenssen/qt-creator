@@ -29,6 +29,7 @@
 #include <mesoninfoparser/mesoninfoparser.h>
 
 #include <coreplugin/messagemanager.h>
+#include <projectexplorer/project.h>
 #include <projectexplorer/projectexplorer.h>
 #include <utils/fileinprojectfinder.h>
 #include <utils/optional.h>

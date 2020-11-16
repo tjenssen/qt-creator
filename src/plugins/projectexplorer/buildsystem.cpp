@@ -29,6 +29,7 @@
 #include "runconfiguration.h"
 #include "runcontrol.h"
 #include "target.h"
+#include "project.h"
 
 #include <projectexplorer/buildaspects.h>
 

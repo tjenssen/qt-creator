@@ -30,6 +30,7 @@
 #include "nimconstants.h"
 #include "nimtoolchain.h"
 
+#include <projectexplorer/project.h>
 #include <projectexplorer/processparameters.h>
 #include <projectexplorer/buildconfiguration.h>
 #include <projectexplorer/ioutputparser.h>
