@@ -1,5 +1,5 @@
 add_qtc_plugin(CppTools
-  DEPENDS Qt5::Network Qt5::Xml
+  DEPENDS Qt5::Network Qt5::Xml ClangSupport
   PUBLIC_DEPENDS CPlusPlus Qt5::Widgets
   PLUGIN_DEPENDS Core ProjectExplorer TextEditor
   PLUGIN_TEST_DEPENDS CppEditor QmakeProjectManager
